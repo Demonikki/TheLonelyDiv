@@ -69,13 +69,13 @@
                 0 0 0 14px rgb(21,19,19),
                 0 0 0 15px gray,
                 0 0 0 16px rgb(80,80,80),
-                0 0 0 17px black;
+                0 0 0 17px black,
 
-                /* Signal bar
+                /* Signal bar */
                 0px  -595px 0   2px rgb(70,70,70),
                 -6px -595px 0   2px rgb(70,70,70),
                 6px  -595px 0   2px rgb(70,70,70),
                 0px  -595px 0   3px rgb(100,100,100),
                 -6px -595px 0   3px rgb(100,100,100),
-                6px  -595px 0   3px rgb(100,100,100); */
+                6px  -595px 0   3px rgb(100,100,100);
 }

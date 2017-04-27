@@ -3,7 +3,7 @@
 This project creates a 2D model of a Galaxy S7 using only CSS. The main constraint is that the markup code contains only 1 div element.
 Therefore this project emphasises code re-use and clever structuring of the CSS code to fit in as many elements as possible under one div.
 
-# Installation:
+# Installation
 Just download galaxy.html and galaxystyle.css into the same folder and open galaxy.html in your browser.
 
 

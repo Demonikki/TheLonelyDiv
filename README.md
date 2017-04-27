@@ -16,4 +16,3 @@ Volume buttons use solid white strips to cut the buttons to size - therefore onl
 Home button is not visible when zooming in past 150%. This bug is browser-specific.
 ### Google Chrome
 Border radius for Home button does not get applied.
-*/

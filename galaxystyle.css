@@ -6,7 +6,7 @@
 /*Frame and body of the phone */
 .galaxyS7 {
 
-    /*constant left margin for all elements */
+    /*Constant left margin for all elements */
     margin-left: 50px;
 
     /* Using square shape with padding to scale appropriately */
@@ -18,7 +18,7 @@
     border-radius: 55px;
 
     box-shadow:
-                /* outer silver frame */
+                /* Outer silver frame */
                 0 0 0 2px gray,
                 0 0 0 4px rgb(185,185,185),
                 0 0 0 5px rgb(80,80,80),
@@ -79,9 +79,3 @@
                 -6px -595px 0   3px rgb(100,100,100),
                 6px  -595px 0   3px rgb(100,100,100);
 }
-
-/* Known issues from testing:
-1. All browsers - Volume buttons use white strips to cut the buttons to size - therefore only works on white background
-2. Microsoft Edge - Home button is not visible when zooming in past 150%.
-3. Google Chrome - Border radius for Home button not visible.
-*/

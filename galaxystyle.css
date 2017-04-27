@@ -1,0 +1,87 @@
+/*
+ * Single CSS element to simulate a Galaxy S7
+ * Author: Nikhilesh Sankara Narayanan
+ */
+
+/*Frame and body of the phone */
+.galaxyS7 {
+
+    /*constant left margin for all elements */
+    margin-left: 50px;
+
+    /* Using square shape with padding to scale appropriately */
+    width: 325px;
+    height: 325px;
+    padding-top: 325px;
+
+    background: rgb(25,25,25);
+    border-radius: 55px;
+
+    box-shadow:
+                /* outer silver frame */
+                0 0 0 2px gray,
+                0 0 0 4px rgb(185,185,185),
+                0 0 0 5px rgb(80,80,80),
+
+                /* Gradient effect for a 3D feel */
+                50px -10px 50px -10px rgb(80,80,80) inset;
+}
+
+/* Screen and Side buttons*/
+.galaxyS7::before {
+    margin-left: inherit;
+    content: '';
+    position: absolute;
+
+    top: 50px;
+    left: 15px;
+
+    /* Screen */
+    border-left: 310px solid rgb(6,6,10);
+    border-top: 550px solid rgb(6,6,10);
+
+    box-shadow:
+                /* Power button */
+                169px   90px    0px -154px  white,
+                169px   40px    0px -154px rgb(50,50,50),
+
+                /* Volume buttons */
+                -168px  50px    0px -154px white,
+                -168px  0px     0px -154px rgb(70,70,70),
+                -168px  -30px   0px -154px white,
+                -168px  -80px   0px -154px rgb(70,70,70);
+}
+
+/* Other buttons */
+.galaxyS7::after {
+    margin-left: inherit;
+    content: '';
+    position: absolute;
+
+    top: 625;
+    left: 150px;
+
+    border-radius: 1px;
+    border-left: 45px solid;
+
+    box-shadow:
+                /*Home button */
+                0 0 0 14px rgb(21,19,19),
+                0 0 0 15px gray,
+                0 0 0 16px rgb(80,80,80),
+                0 0 0 17px black,
+
+                /* Signal bar */
+                0px  -595px 0   2px rgb(70,70,70),
+                -6px -595px 0   2px rgb(70,70,70),
+                6px  -595px 0   2px rgb(70,70,70),
+                0px  -595px 0   3px rgb(100,100,100),
+                -6px -595px 0   3px rgb(100,100,100),
+                6px  -595px 0   3px rgb(100,100,100);
+}
+
+/* Known issues from testing:
+1. All browsers - Volume buttons use white strips to cut the buttons to size - therefore only works on white background
+2. Microsoft Edge - Home button is not visible when zooming in past 150%.
+3. Google Chrome - Border radius for Home button not visible.
+*/

@@ -4,7 +4,7 @@ This project creates a 2D model of a Galaxy S7 using only CSS. The main constrai
 Therefore this project emphasises code re-use and clever structuring of the CSS code to fit in as many elements as possible under one div.
 
 
-<img src="./sample.png" width="100">
+<img src="./sample.png" width="180">
 
 
 # Installation
